@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Isaac Ayalomhe</title>
+    <link rel="stylesheet" href="Portfolio style.css">
+    <script src="Portfolio script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+     <!-- Hero Section -->
+     <section id="home" class="Hero background">
+        <!-- <img src="/asset/home screen.jpg" alt="" srcset=""> -->
+        <div class="hero-inner">
+            <div class="card">
+                <div class="Home">
+                    <h1> Welcome to my Portfoilo </h1>
+                    <p> Hi, i am Isaac, feel free to take a look around my works</p>
+                    <a href="#projects" class="button">Go ahead</a>
+                </div>
+        </div>
+            
+                   
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2> 
+            <img src="/asset/IMG-20240515-WA0027.jpg" alt="" width="100px" height="200px">
+            <p>Name: Ayalomhe Isaac<br>Field: Web Development and data management <br>Email: cussisaac007@gmail.com<br>Phone: 08105525668</p></p><p>Dynamic front-end developer with a passion for creating engaging user experiences. Skilled in HTML, CSS, JavaScript, and responsive design.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p>These are my upcoming projects I am currently working on </p>
+        <div class="carousel">
+            <div class="slides">
+                <div class="slide">
+                    <div class="heading">
+                        <a href="/asset/mini calculator.png"><img src="/asset/mini calculator.png" alt="" width="00px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>Mini Calendar</h3>
+                        <a href="/asset/mc.html">Visit</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="heading">
+                        <a href="/asset/english dictionary.png"><img src="/asset/english dictionary.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>English Dictionary</h3>
+                        <a href="/asset/ed.html">Visit</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="heading">
+                        <a href="/asset/stopwatch.png"><img src="/asset/stopwatch.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>stopwatch</h3>
+                        <a href="/asset/stwc.html">Visit</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="heading">
+                        <a href="/asset/random quote.png"><img src="/asset/random quote.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>Random Quote</h3>
+                        <a href="/asset/rq.html">Visit</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="4.JPG-7015d6d9-3256-49c6-8821-1f85e2d1fa6f" alt="Project Four">
+                    <div class="project-info">
+                        <h3> Recipe Book App Project - HTML, CSS, JavaScript</h3>
+                        <p>  In this project, we're developing a recipe book application that features a variety of recipes obtained through a free recipe API. We need an API key to access this API. Each time the page is refreshed, a new set of recipes with distinct ingredients will be displayed. Additionally, a link is provided to access the recipe website.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill-category">
+            <h3>HTML</h3>
+            <p>90%</p>
+            <progress value="90" max="100">HTML/CSS/JavaScript</progress>
+        </div>
+        <div class="skill-category">
+
+            <h3>CSS</h3>
+            <p>75%</p>
+            <progress value="75" max="100">Node.js</progress>
+        </div>
+        <div class="skill-category">
+            <h3>JavaScript</h3>
+            <p>20%</p>
+            <progress value="20" max="100">UI/UX Design</progress>
+        </div>
+    </section>
+
+    <!-- Experience section -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <p>New Horizons ICT Resource Center - Frontend Developer, 2023-2024</p>
+        <p>Freelance Web Developer, 2023-Present</p>
+    </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="contact">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 by Isaac Ayalomhe. All rights reserved. | Today's Date: <span id="date"></span> </p>
+    </footer>
+</body>
+</html>
